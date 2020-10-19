@@ -1,11 +1,12 @@
 package co.com.test.tasks;
 
-import co.com.test.userinterface.LoginFormPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+
+import static co.com.test.userinterface.LoginFormPage.*;
 
 public class DoLogin implements Task {
 
@@ -26,10 +27,10 @@ public class DoLogin implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(LoginFormPage.LOG_IN_BUTTON),
-                Enter.theValue(username).into(LoginFormPage.USERNAME_OR_EMAIL_FIELD),
-                Enter.theValue(password).into(LoginFormPage.PASSWORD_FIELD),
-                Click.on(LoginFormPage.LOGIN_BUTTON)
+                Click.on(USERNAME_OR_EMAIL_FIELD),
+                Enter.theValue(username).into(USERNAME_OR_EMAIL_FIELD),
+                Enter.theValue(password).into(PASSWORD_FIELD),
+                Click.on(LOGIN_BUTTON)
                 );
 
 
