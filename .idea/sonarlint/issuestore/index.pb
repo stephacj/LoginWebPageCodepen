@@ -13,9 +13,9 @@ C
 serenity.properties,2/5/25f1bbdc8dba7ca4a4b90251f1ef69621b24a28c
 b
 2src/test/java/co/com/test/runners/RunnerLogIn.java,2/d/2d21ec3d31984808c747843b140c38ee1c5072d4
-]
--src/main/java/co/com/test/tasks/OpenPage.java,1/2/12eb8f3674c4584a9aa2cff2dff65860a59a38fc
 s
 Csrc/test/java/co/com/test/stepdefinitions/LogInStepDefinitions.java,7/d/7d2d2c55f109ffaf8487cde5c59e748683ffbf6d
 \
 ,src/main/java/co/com/test/tasks/DoLogin.java,f/a/fad2b4527a48d41511e194e1e8b605caf17ff6df
+[
++src/main/java/co/com/test/tasks/OpenUp.java,2/3/2339b207ad566d74a00bce2ee2bee2e4f45eab54

@@ -22,22 +22,22 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
-test {	
- 	useJUnit {							
-		include "**/RunnerTags.class";
+test {
+ 	useJUnit {
+		include "**/RunnerLogIn.class";
  		//Sigue ejecutando aunque falle un caso
 		gradle.startParameter.continueOnFailure = true
-		//      
+		//
 		testLogging.showStandardStreams = true
-		systemProperties System.getProperties()	   	 	
+		systemProperties System.getProperties()
 	}
-  
+
    //Loggin test
     testLogging {
         showStandardStreams = true
     }
     outputs.upToDateWhen { false }
-    systemProperties 'property': 'value'   
+    systemProperties 'property': 'value'
 }
 
 dependencies {

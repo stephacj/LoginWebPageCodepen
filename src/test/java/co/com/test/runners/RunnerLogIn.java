@@ -12,8 +12,5 @@ import org.junit.runner.RunWith;
 				  snippets = SnippetType.CAMELCASE)
 				  
 public class RunnerLogIn {
-	private RunnerLogIn(){
-		throw new IllegalStateException("Utility class");
-	}
 
 }
