@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Log in web page Codepen" skipped="0" tests="1" time="0.81" timestamp="2020-10-19 01:27:00"><testcase name="Log in web page Codepen successful"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+co.com.test.tasks.OpenPage.performAs(OpenPage.java:16)
+co.com.test.stepdefinitions.LogInStepDefinitions.stephanie_has_an_active_account(LogInStepDefinitions.java:26)
+io.cucumber.java.Invoker.invoke(Invoker.java:27)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)
+</system-err></testcase></testsuite>
